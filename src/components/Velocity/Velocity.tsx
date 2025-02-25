@@ -2,7 +2,7 @@ import ScrollVelocity from "../../blocks/TextAnimations/ScrollVelocity/ScrollVel
 
 export default function Velocity() {
   return (
-    <div className="w-full h-[150px] bg-black text-nowrap flex-nowrap text-white">
+    <div className="w-full h-[200px] bg-black text-nowrap flex-nowrap text-white">
       <ScrollVelocity
         texts={[ "FULLSTACK DEVELOPER", "WEB DEVELOPMENT"]}
         velocity={100}
