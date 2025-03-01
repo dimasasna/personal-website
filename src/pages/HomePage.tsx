@@ -7,6 +7,7 @@ import HeroSection from '../components/herosection/HeroSection.tsx';
 import Velocity from '../components/Velocity/Velocity.tsx';
 import { useEffect } from 'react';
 import ContactSection from '../components/Contact/ContactSection.tsx';
+import ProjectSection from '../components/Project/ProjectSection.tsx';
 export default function HomePage() {
   useEffect(() => {
       AOS.init();
@@ -17,7 +18,9 @@ export default function HomePage() {
         <Velocity />
         <AboutSection />
         <ExperienceSection />
+        <ProjectSection/>
         <ContactSection/> 
+        
     </div>
   )
 }

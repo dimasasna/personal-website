@@ -1,7 +1,7 @@
 /*
-	jsrepo 1.40.1
+	jsrepo 1.41.2
 	Installed from https://reactbits.dev/ts/tailwind/
-	2-25-2025
+	3-1-2025
 */
 
 import React from "react";
